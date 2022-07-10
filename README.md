@@ -27,6 +27,7 @@ inside this function 'Hooking_Keyboard_Fun' we can find that calls 'KeyLogging_F
 
 <img src="https://user-images.githubusercontent.com/84356407/178153830-083069a9-06d3-4aa7-87af-5c638712db61.png" width="400">
 By examining this function 'KeyLogging_Fun' we can find :-
+
 First : it creates a file called 'practicalmalwareanalysis.log' by calling 'CreateFileA' function to recode everything that you write on the keyboard then  as shown in the following picture:-
 
 <img src="https://user-images.githubusercontent.com/84356407/178156194-7c894054-9572-416c-a875-18a7f2e2d63a.png" width="400">
@@ -52,15 +53,21 @@ sha256 : 9B683D2FDA7CA7ADCC043E4412271009A0E115CA55F9A718C385A3F46B57AE6B
 ### Functions
 
 WriteFile
+
 GetForegroundWindow
+
 SetWindowsHookExA
 
 ### Strings
 
 practicalmalwareanalysis.log
+
 [SHIFT]
+
 [TAB]
+
 [BACKSPACE]
+
 [CAPS LOCK]
 
 # Sumerization
