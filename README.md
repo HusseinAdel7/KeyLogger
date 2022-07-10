@@ -42,6 +42,27 @@ Then it recodes eveything that you write on the keyboard but it first make a com
 <img src="https://user-images.githubusercontent.com/84356407/178156226-06d41da3-a783-48ff-a634-de052cf8b74d.png" width="500">
 Then it close the Handle for the file 'practicalmalwareanalysis.log' by calling 'CloseHandle' funcion as shown in the following picture:-
 <img src="https://user-images.githubusercontent.com/84356407/178156229-ee146033-8f11-45a0-b2d4-6b994c7d858e.png" width="500">
+
+# IOCs
+
+### Hashes
+
+sha256 : 9B683D2FDA7CA7ADCC043E4412271009A0E115CA55F9A718C385A3F46B57AE6B
+
+### Functions
+
+WriteFile
+GetForegroundWindow
+SetWindowsHookExA
+
+### Strings
+
+practicalmalwareanalysis.log
+[SHIFT]
+[TAB]
+[BACKSPACE]
+[CAPS LOCK]
+
 # Sumerization
 This malware called 'Keylogger', creates a file called 'practicalmalwareanalysis.log' then it records everything that you write on the keyboard
 and this is a picture that shows the functionality after running this malware
@@ -50,28 +71,5 @@ and this is a picture that shows the functionality after running this malware
 
 
 
-# IOCs
-
-#### Hashes
-
-Packed: 8021f8aa674ce3a2ccb2e8f917ebaf5b638607447f0df0e405e837dd2e7a7ccd
-
-Unpacked: bc61724d50bff04833ef13ae13445cd43a660acf9d085a9418b6f48201524329
-
-#### C2s
-
-jeazerlog.duckdns.org:6606
-
-jeazerlog.duckdns.org:7707
-
-jeazerlog.duckdns.org:8808
-
-#### MUTEXs
-
-AsyncMutex_6SI8OkPnk
-
-#### REGs
-
-HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run
 
 
