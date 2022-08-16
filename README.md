@@ -76,7 +76,6 @@ and this is a picture that shows the functionality after running this malware
 
 
 
-
 <img src="https://user-images.githubusercontent.com/84356407/178157096-6f599656-2aa4-4c40-a687-169987f8eeb9.png" width="500">
 
 
